@@ -23,12 +23,12 @@ font-size: 25px;
 .container {
     display: flex;
     align-items:center;
-    width:50%;
-    height:50%;
+    width:50vw;
+    height:50vw;
 }
 .container img {
-    width:50%;
-    height:50%;
+    width:50vw;
+    height:50vw;
 }
 
 .rechts {

@@ -23,6 +23,8 @@ font-size: 25px;
 .container {
     display: flex;
     align-items:center;
+    width:50%;
+    height:50%;
 }
 .container img {
     width:50%;

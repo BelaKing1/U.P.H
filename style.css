@@ -24,8 +24,10 @@ font-size: 25px;
     display: flex;
     align-items:center;
 }
-.links img {
-    height: 100%;
+.container img {
+    width:50%;
+    height:50%;
+}
 }
 .rechts {
     width: 50%;

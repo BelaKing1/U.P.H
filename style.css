@@ -37,6 +37,8 @@ font-size: 25px;
     align-items:center;
     justify-content:cetner;
     font-size:200px;
+    border-up:200px;
+    padding-up:200px;
 }
 
 .infotainer {

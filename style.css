@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+    padding-right:5%;
+    
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar a  {
+color: white;
+text-decoration: none;
+font-family:Arial ;
+font-size: 25px;
+}
+
+.container {
+    display: flex;
+}
+.links img {
+    width: 50vw;
+    height: 100%;
+}
+.links{
+    width: 50%;
+}
+.rechts {
+    width: 50%;
+    background-color: gray;
+}
+
+.infotainer {
+    background-color: black ;
+    color: white;
+}
+
+.infotainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 75px;
+    gap:75px;
+    box-sizing: border-box;
+
+}
+
+.infotainer img {
+    width: 75%;
+    object-fit: cover;
+    padding: 50px;
+    padding-bottom: 25px;
+}
+
+
+.eins {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: lightgray;
+    align-items: center;
+}
+
+.zwei {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.trechts {
+    padding: 50px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+.tlinks {
+    padding: 50px;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+.blinks   {
+    padding: 50px;
+}
+
+.blinks img {
+    width: 500px;
+    height: auto;
+}
+.brechts {
+    padding:50px;
+}
+.brechts img {
+    width: auto;
+    height: 500px;
+    
+}
+
+.impressum {
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.angebote {
+    display:flex;
+    border-left: 100px;
+}
+.angebote img {
+        padding:25px;
+        padding-left:300px;
+         height: 25%;
+         width: 25%;
+}
+
+.sponsoren {
+    display: grid;
+}
+
+
+
